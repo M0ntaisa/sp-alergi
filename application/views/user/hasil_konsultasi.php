@@ -18,7 +18,8 @@
 									<h2>HASIL</h2>
 									<b>Nilai tertinggi dari perhitungan metode Certainty Factor adalah <strong><?= $rank_penyakit[0]['penyakit']; ?></strong>, dengan nilai = <strong><?= $rank_penyakit[0]['nilai']; ?></strong></b>
 									<br>
-									<p><?= $rank_penyakit[0]['ket']; ?></p>
+									<p><?= $rank_penyakit[0]['ket']; ?></p><br>
+									<h5>Solusi</h5>
 									<p><?= $rank_penyakit[0]['solusi']; ?></p>
 									<hr><br><br>
 									<a href="<?= base_url('konsultasi') ?>" class="btn btn-warning text-uppercase">Kembali</a>
