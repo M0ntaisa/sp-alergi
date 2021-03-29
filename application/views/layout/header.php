@@ -4,10 +4,10 @@
 		$chome = "active";
 		$cabout = "";
 		$ckons = "";
-	} elseif ($title == "About") {
-		$chome = "";
-		$cabout = "active";
-		$ckons = "";
+	// } elseif ($title == "About") {
+	// 	$chome = "";
+	// 	$cabout = "active";
+	// 	$ckons = "";
 	} elseif ($title == "Konsultasi") {
 		$chome = "";
 		$cabout = "";
@@ -42,9 +42,9 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item <?= $cabout ?> mr-3 mt-lg-0 mt-3">
+                        <!-- <li class="nav-item <?= $cabout ?> mr-3 mt-lg-0 mt-3">
                             <a class="nav-link" href="<?= base_url('about') ?>">About</a>
-                        </li>
+                        </li> -->
 						<li class="nav-item  mr-3 mt-lg-0 mt-3">
                             <?php if ($this->session->userdata('role_id') == 2) { ?>
                                 <a class="nav-link" href="<?= base_url('auth/logout') ?>">Logout</a>
